@@ -1,0 +1,85 @@
+@import "colores";
+@import "tamanios";
+
+html{
+	scroll-behavior:smooth;
+}
+*{
+	margin:0;
+	padding:0;
+	box-aizing:0;
+}
+body{
+	background-image :url("../assets/img/parallax.jpg");
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.card-img-filter{
+	filter:brightness(0.5);
+}
+.card{
+	transition-duration: .6s;
+	clip-path: polygon(
+		50% 0,
+		100% 0,
+		100% 50%,
+		100% 100%,
+		50% 100%,
+		0 100%,
+		0 50%,
+		0 0
+		);
+}
+.card-effect:hover .card{
+	clip-path: polygon(
+		50% 0,
+		50% 0,
+		100% 50%,
+		100% 50%,
+		50% 100%,
+		50% 100%,
+		0 50%,
+		0 50%
+		);
+}
+.card-img-overlay{
+	transition-duration: 0.6s;
+}
+.card-effect:hover .card-img-overlay{
+	transform: scale(0.9);
+}
+
+.card-img{
+	height: 600px;
+}
+.section__hotel--img{
+	height: 400px;
+}
+.section__titulo--index{
+	color: $blanco;
+}
+.section__presentacion--p{
+	color:$blanco;
+	text-align: center;
+}
+.section__titulo--vision{
+	color: $blanco;
+}
+.section__vision--p{
+	color:$blanco;
+	text-align: center;
+}
+.section__titulo--mision{
+	color: $blanco;
+}
+.section__mision--p{
+	color:$blanco;
+	text-align: center;
+}
+
+.index__img--cessna150{
+	height:$alto ;
+	width:$ancho ;
+}
