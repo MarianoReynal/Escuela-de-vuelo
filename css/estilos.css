@@ -73,3 +73,6 @@ body {
 .navNav {
   display: flex;
   justify-content: flex-end; }
+
+.footer {
+  margin-top: 20px; }
