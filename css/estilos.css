@@ -2,8 +2,6 @@ html {
   scroll-behavior: smooth; }
 
 * {
-  margin: 0;
-  padding: 0;
   box-aizing: 0;
   font-family: 'Roboto', sans-serif; }
 
@@ -12,7 +10,8 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  overflow-x: hidden; }
 
 .card-img-filter {
   filter: brightness(0.5); }
