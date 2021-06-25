@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth; }
 
 * {
-  box-aizing: 0;
+  box-sizing: 0;
   font-family: 'Roboto', sans-serif; }
 
 body {
@@ -79,4 +79,5 @@ body {
 .cardsIndex {
   display: flex;
   justify-content: center;
-  width: 0%; }
+  width: 0%;
+  padding: 0%; }

@@ -5,7 +5,7 @@ html{
 	scroll-behavior:smooth;
 }
 *{
-	box-aizing:0;
+	box-sizing:0;
 	font-family: 'Roboto', sans-serif;
 }
 body{
@@ -102,10 +102,10 @@ body{
 }
 
 
-@media only screen and (min-width: 1024px)
+
 .cardsIndex{
 	display:flex;
-	justify-content:;
+	justify-content:center;
 	width:0%;
 	padding:0%;
 }
