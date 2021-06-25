@@ -100,3 +100,13 @@ body{
 .footer{
 	margin-top:$p-top;
 }
+
+
+@media only screen and (min-width: 1024px)
+.cardsIndex{
+	display:flex;
+	justify-content:;
+	width:0%;
+	padding:0%;
+}
+

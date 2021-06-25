@@ -75,3 +75,8 @@ body {
 
 .footer {
   margin-top: 20px; }
+
+.cardsIndex {
+  display: flex;
+  justify-content: center;
+  width: 0%; }
