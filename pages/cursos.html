@@ -8,6 +8,8 @@
   <!--Palabras clave-->
   <meta name="description" content="Estos son nuestros cursos">
   <meta name="keywords" content="Piloto Privado de Avion, Piloto Comercial, H.V.I, Piloto Comercial de 1era, T.L.A, Multimotor, Simulador, Vuelos de Bautismo, Traslados, Pilotaje de Drones">
+  <!--AOS-->
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <!--CSS-->
   <link rel="stylesheet" type="text/css" href="../css/estilos.css">
   <title>CURSOS</title>
@@ -60,7 +62,7 @@
         <!--texts-->
         <div class="col-12 text-center">
           <h1 class="text-white text-uppercase h6 primerTitulo">CURSOS</h1>
-          <h2 class="text-capitalize text-white">Estos son nuestros cursos</h2>
+          <h2 class="text-capitalize text-white" data-aos="fade-down">Estos son nuestros cursos</h2>
           <p class="text-white">
             DELTA PLANE S.R.L. es una empresa aérea que brinda: Enseñanza como Escuela de Vuelo con cursos teóricos y prácticos para Piloto Privado VFR, Piloto Comercial con HVI. Escuela de drones. Traslados Aéreos en su modalidad de Taxi-Aéreo. Traslados Sanitarios
           </p>
@@ -68,7 +70,7 @@
         <!--Cards-->
        
         <!--Card #1-->
-        <article class="col-lg-4 col-xs-4 card-effect">
+        <article class="col-lg-4 col-xs-4 card-effect" data-aos="fade-right">
           <div class="card">
            <img src="../assets/img/cardUno.jpg" alt="cardUno" class="card-img card-img-filter">
             <div class="card-img-overlay text-white d-flex flex-column justify-content-center text-center">
@@ -91,7 +93,7 @@
         </article>
          
          <!--Card #2-->
-        <article class="col-lg-4 col-xs-4 card-effect">
+        <article class="col-lg-4 col-xs-4 card-effect" data-aos="fade-up">
           <div class="card">
            <img src="../assets/img/cardDos.jpg" alt="cardDos" class="card-img card-img-filter">
             <div class="card-img-overlay text-white d-flex flex-column justify-content-center text-center">
@@ -110,7 +112,7 @@
         </article>
         
          <!--Card #3-->
-        <article class="col-lg-4 col-xs-4 card-effect">
+        <article class="col-lg-4 col-xs-4 card-effect" data-aos="fade-left">
           <div class="card">
            <img src="../assets/img/cardTres.jpg" alt="cardTres" class="card-img card-img-filter">
             <div class="card-img-overlay text-white d-flex flex-column justify-content-center text-center">
@@ -139,7 +141,7 @@
     <section class="container">
       <div class="row"style="padding: 20px;">
         <!--Card #4-->
-        <article class="col-lg-4 col-xs-4 card-effect">
+        <article class="col-lg-4 col-xs-4 card-effect" data-aos="fade-right">
           <div class="card">
            <img src="../assets/img/cardCuatro.jpg" alt="cardCuatro" class="card-img card-img-filter">
             <div class="card-img-overlay text-white d-flex flex-column justify-content-center text-center">
@@ -160,7 +162,7 @@
         </article>
          
          <!--Card #5-->
-        <article class="col-lg-4 col-xs-4 card-effect">
+        <article class="col-lg-4 col-xs-4 card-effect" data-aos="fade-up">
           <div class="card">
            <img src="../assets/img/cardCinco.jpg" alt="cardCinco" class="card-img card-img-filter">
             <div class="card-img-overlay text-white d-flex flex-column justify-content-center text-center">
@@ -184,7 +186,7 @@
         </article>
         
          <!--Card #6-->
-        <article class="col-lg-4 col-xs-4 card-effect">
+        <article class="col-lg-4 col-xs-4 card-effect" data-aos="fade-left">
           <div class="card">
            <img src="../assets/img/cardSeis.jpg" alt="cardSeis" class="card-img card-img-filter">
             <div class="card-img-overlay text-white d-flex flex-column justify-content-center text-center">
@@ -206,7 +208,7 @@
     <section class="container">
       <div class="row"style="padding: 20px;">
         <!--Card #7-->
-        <article class="col-lg-4 col-xs-4 card-effect">
+        <article class="col-lg-4 col-xs-4 card-effect" data-aos="fade-right">
           <div class="card">
            <img src="../assets/img/cardSiete.jpg" alt="cardSiete" class="card-img card-img-filter">
             <div class="card-img-overlay text-white d-flex flex-column justify-content-center text-center">
@@ -223,7 +225,7 @@
         </article>
          
          <!--Card #8-->
-        <article class="col-lg-4 col-xs-4 card-effect">
+        <article class="col-lg-4 col-xs-4 card-effect" data-aos="fade-up">
           <div class="card">
            <img src="../assets/img/cardOcho.jpg" alt="cardOcho" class="card-img card-img-filter">
             <div class="card-img-overlay text-white d-flex flex-column justify-content-center text-center">
@@ -241,7 +243,7 @@
         </article>
         
          <!--Card #9-->
-        <article class="col-lg-4 col-xs-4 card-effect">
+        <article class="col-lg-4 col-xs-4 card-effect" data-aos="fade-left">
           <div class="card">
            <img src="../assets/img/cardNueve.jpg" alt="cardNueve" class="card-img card-img-filter">
             <div class="card-img-overlay text-white d-flex flex-column justify-content-center text-center">
@@ -333,7 +335,11 @@
         </nav>
       </div>
     </footer>
-
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>

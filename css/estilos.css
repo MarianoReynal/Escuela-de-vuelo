@@ -16,11 +16,11 @@ body {
 .card-img-filter {
   filter: brightness(0.5); }
 
-.card {
+.cardis {
   transition-duration: .6s;
   clip-path: polygon(50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%, 0 50%, 0 0); }
 
-.card-effect:hover .card {
+.card-effectis:hover .card {
   clip-path: polygon(50% 0, 50% 0, 100% 50%, 100% 50%, 50% 100%, 50% 100%, 0 50%, 0 50%); }
 
 .card-img-overlay {

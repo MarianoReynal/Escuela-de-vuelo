@@ -19,7 +19,7 @@ body{
 .card-img-filter{
 	filter:brightness(0.5);
 }
-.card{
+.cardis{
 	transition-duration: .6s;
 	clip-path: polygon(
 		50% 0,
@@ -32,7 +32,7 @@ body{
 		0 0
 		);
 }
-.card-effect:hover .card{
+.card-effectis:hover .card{
 	clip-path: polygon(
 		50% 0,
 		50% 0,
