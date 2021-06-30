@@ -109,10 +109,15 @@ body{
 	justify-content:center;
 	width:100%;
 	padding:0%;
+	padding:$p-top;
 }
 
 .mapa{
 	display: flex;
     justify-content: center;
     padding: 20px 0px 20px 0;
+}
+
+.card{
+margin:$p-top 0px 0px 0px;
 }
