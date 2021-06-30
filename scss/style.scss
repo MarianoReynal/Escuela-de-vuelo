@@ -112,6 +112,7 @@ body{
 }
 
 .mapa{
-	height: 99%;
-	width: 99%;
+	display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0;
 }
